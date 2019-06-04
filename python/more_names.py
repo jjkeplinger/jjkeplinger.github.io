@@ -20,10 +20,5 @@ for i in range(0, 10, 12):
 
 fruits = ['sand', 'cardboard', 'mice', 'apple']
 
-if fruits[0] == "apple":
-    print("Yum!")
-elif fruits[0] == "cardboard" or fruits[0] == "sand":
-    print("Yuck!")
-
-else:
-    print("Not bad.")
+if "plums" not in fruits[0]:
+    print("YUCK")
