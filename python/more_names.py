@@ -17,3 +17,13 @@ for i in range(5, 10):
 
 for i in range(0, 10, 12):
     print("I'm at number " + str(i))
+
+fruits = ['apple', 'cardboard', 'mice', 'sand']
+
+if fruits[0] == "apple":
+    print("Yum!")
+elif fruits[0] == "cardboard" or fruits[0] == "sand":
+    print("Yuck!")
+
+else:
+    print("Not bad.")
