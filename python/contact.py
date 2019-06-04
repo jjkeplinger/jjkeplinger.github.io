@@ -8,4 +8,4 @@ contact_info = {
 
 print(contact_info["name"])
 print(contact_info["street"])
-print(contact_info["city"] + " " ["state"] + " " + ["zip"])
+print(contact_info["city"] + ", " + ["state"] + " " + ["zip"])
