@@ -6,3 +6,4 @@ contact_info = {
 "state": "MI",
 "zip": "49113",
 }
+print(contact_info)
