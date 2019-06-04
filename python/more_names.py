@@ -18,7 +18,7 @@ for i in range(5, 10):
 for i in range(0, 10, 12):
     print("I'm at number " + str(i))
 
-fruits = ['apple', 'cardboard', 'mice', 'sand']
+fruits = ['sand', 'cardboard', 'mice', 'apple']
 
 if fruits[0] == "apple":
     print("Yum!")
