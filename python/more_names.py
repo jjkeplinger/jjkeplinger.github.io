@@ -7,4 +7,4 @@ for name in hilt_class:
 states = {"MI": "Michigan", "ME": "Maine"}
 
 for code, state in states.items():
-    print(code + "is the code for " + state)
+    print(code + " is the code for " + state)
