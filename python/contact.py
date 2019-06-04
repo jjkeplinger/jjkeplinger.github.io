@@ -1,12 +1,11 @@
 contact_info = {
-"first": "Jennifer ",
-"last": "Keplinger",
+"name": "Jennifer Keplinger",
 "street": "102 South Cleveland Avenue",
-"city": "Galien, ",
-"state": "MI ",
+"city": "Galien",
+"state": "MI",
 "zip": "49113",
 }
 
-print(contact_info['first'] + ['last'])
-print(contact_info['street'])
-print(contact_info['city'] + ['state'] + ['zip'])
+print(contact_info["name"])
+print(contact_info["street"])
+print(contact_info["city"] + " " ["state"] + " " + ["zip"])
