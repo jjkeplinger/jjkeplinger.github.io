@@ -3,4 +3,4 @@ data = []
 for item in numbers:
     data.append(item -10)
 
-print(data)
+# data = [number -10 for number in numbers]
