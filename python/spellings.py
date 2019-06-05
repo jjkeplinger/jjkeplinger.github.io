@@ -13,3 +13,5 @@ for word in words:
         new_list.append(corrected_word)
     else:
         new_list.append(word)
+
+print(new_list)
