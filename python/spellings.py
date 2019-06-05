@@ -7,6 +7,8 @@ mappings = {
     "grey": "gray"
 }
 
+new_list = []
+
 for word in words:
     if word in mappings:
         corrected_word = mappings [word]
