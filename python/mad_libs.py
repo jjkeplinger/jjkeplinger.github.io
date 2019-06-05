@@ -13,4 +13,3 @@ companions = ["Viola", "Jette", "Frank"]
 
 for companion in companions:
     blank2(companion)
-    blank1()
