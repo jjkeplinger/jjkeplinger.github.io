@@ -2,5 +2,14 @@ words = ["color", "colour", "gray", "grey"]
 
 correct_spelling = ["color", "gray"]
 
-if word == words[1:2]
-    print(words[1])
+mappings = {
+    "colour": "color",
+    "grey": "gray"
+}
+
+for word in words:
+    if word in mappings:
+        corrected_word = mappings [word]
+        new_list.append(corrected_word)
+    else:
+        new_list.append(word)
