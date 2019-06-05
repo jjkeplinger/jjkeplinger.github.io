@@ -7,7 +7,7 @@ for place in places:
 	mad_lib(place)
 
 def mad_lib(companion):
-    print(place + "with " + companion)
+    print("I went to the " + place + " with " + companion + ".")
 
 companions = ["Viola", "Jette", "Frank"]
 
