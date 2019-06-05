@@ -11,8 +11,7 @@ new_list = []
 
 for word in words:
     if word in mappings:
-        corrected_word = mappings [word]
-        new_list.append(corrected_word)
+        new_list.append(mappings[word])
     else:
         new_list.append(word)
 

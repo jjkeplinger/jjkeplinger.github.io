@@ -4,7 +4,7 @@ pages = ['course-schedule', 'syllabus', 'weeks-1-2-may-16-–-29', 'weeks-13-14-
 urls = []
 
 for page in pages:
-	url = domain + page
+	url = domain + pages
 	urls.append(url)
 
 print(urls)
