@@ -43,7 +43,12 @@ for url in urls:
     soup = BeautifulSoup(html, "lxml")
     text = soup.text.replace('\n', '')
     corpus_texts.append(text)
-    print('Scraping' + url)
+    print('Scraping ' + url)
 
 print(len(corpus_texts))
 print(len(corpus_texts[0]))
+
+this_text = corpus_texts[0]
+process_this_text = nltk.word_tokenize(this_text)
+print(process_this_text[0:20])
+print(nltk.FreqDist(process_this_text).most_common(50))
